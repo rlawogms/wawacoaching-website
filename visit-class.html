@@ -3,38 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>와와코칭 - AI 학습 분석 기반 1:1 코칭 시스템</title>
-<meta name="description" content="성적이 아니라 학습 습관을 코칭합니다. 4C 코칭, AI 학습 분석 리포트, 자기주도학습으로 완성하는 와와코칭의 학습 코칭 시스템을 소개합니다." />
-<meta name="keywords" content="와와코칭, 학습 코칭, AI 학습 분석, 4C 코칭, 자기주도학습, 소수정예 학습코칭" />
-<link rel="canonical" href="https://wawacoaching-website.co.kr/" />
+<title>방문·화상 수업 안내 - 와와코칭</title>
+<meta name="description" content="가까운 지점이 멀 때도 괜찮습니다. 선생님이 직접 방문하거나 화상으로 진행하는 방문·화상 코칭을 안내합니다. 상담은 무료입니다." />
+<meta name="keywords" content="방문 수업, 방문 과외, 화상 수업, 화상 과외, 와와코칭 방문수업" />
+<link rel="canonical" href="https://wawacoaching-website.co.kr/visit-class.html" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="와와코칭 - AI 학습 분석 기반 1:1 코칭 시스템" />
-<meta property="og:description" content="성적이 아니라 학습 습관을 코칭합니다. 4C 코칭, AI 학습 분석 리포트, 자기주도학습으로 완성하는 학습 코칭 시스템입니다." />
-<meta property="og:url" content="https://wawacoaching-website.co.kr/" />
+<meta property="og:title" content="방문·화상 수업 안내 - 와와코칭" />
+<meta property="og:description" content="가까운 지점이 멀 때도 괜찮습니다. 선생님이 직접 방문하거나 화상으로 진행하는 코칭을 안내합니다." />
+<meta property="og:url" content="https://wawacoaching-website.co.kr/visit-class.html" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  "name": "와와코칭",
-  "alternateName": "와와학습코칭센터",
-  "url": "https://wawacoaching-website.co.kr/",
-  "logo": "https://wawacoaching-website.co.kr/favicon.svg",
-  "description": "4C 코칭, AI 학습 분석, 자기주도학습을 기반으로 한 학습 코칭 시스템 전문 브랜드",
-  "telephone": "+82-1899-2277",
-  "taxID": "201-81-27348",
-  "areaServed": "KR",
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "reviewCount": "230" }
-}
-</script>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"와와코칭은 와와학습코칭센터와 같은 곳인가요?","acceptedAnswer":{"@type":"Answer","text":"네, 같은 사업자(주식회사 동화세상에듀코)가 운영하는 학습 코칭 시스템입니다. 전국 지점 안내는 와와학습코칭센터 홈페이지에서 확인하실 수 있습니다."}},
-{"@type":"Question","name":"4C 코칭은 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"학생 개개인의 학습 습관과 태도를 분석해 맞춤형으로 지도하는 코칭 방식으로, 전국 지점에서 공통으로 운영하는 학습 관리 프로그램입니다."}},
-{"@type":"Question","name":"AI 학습 분석 리포트는 어떻게 활용되나요?","acceptedAnswer":{"@type":"Answer","text":"학생의 문제풀이 데이터를 분석해 취약 유형, 학습 시간, 성취도 변화를 리포트로 제공하며, 담당 선생님이 이를 바탕으로 학습 방향을 조정합니다."}},
-{"@type":"Question","name":"가까운 지점은 어디서 확인하나요?","acceptedAnswer":{"@type":"Answer","text":"전국 200여개 지점 검색은 와와학습코칭센터 홈페이지의 센터 찾기 페이지에서 확인하실 수 있습니다."}}
-]}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"https://wawacoaching-website.co.kr/"},{"@type":"ListItem","position":2,"name":"방문·화상 수업","item":"https://wawacoaching-website.co.kr/visit-class.html"}]}
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
@@ -56,15 +36,16 @@
         body: JSON.stringify({
           access_key: WEB3FORMS_KEY,
           _template: 'table',
-          from_name: '와와코칭 상담 신청',
-          subject: '[와와코칭] 📋 상담 신청이 접수됐습니다',
+          from_name: '와와코칭 방문·화상 수업 상담 신청',
+          subject: '[와와코칭] 📋 방문·화상 수업 상담 신청이 접수됐습니다',
           '학생 이름': f.querySelector('[name="학생이름"]').value,
           '학부모 연락처': f.querySelector('[name="연락처"]').value,
           '학년': f.querySelector('[name="학년"]').value,
           '희망 과목': f.querySelector('[name="희망과목"]').value,
+          '수업 방식': f.querySelector('[name="수업방식"]').value,
           '지역': f.querySelector('[name="시도"]').value + ' ' + f.querySelector('[name="상세지역"]').value,
           '신청 시각': new Date().toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' }),
-          '신청 경로': 'wawacoaching-website.co.kr'
+          '신청 경로': 'wawacoaching-website.co.kr/visit-class.html'
         })
       }).then(function(r) { return r.json(); }).then(function(res) {
         if (res.success) {
@@ -111,68 +92,70 @@ body { font-family: 'Noto Sans KR', sans-serif; color: #1a1a1a; background: #fff
   .navbar-links a { font-size: 13px; }
 }
 
-.hero {
-  background: linear-gradient(160deg, #0E6659 0%, #0A4D43 100%);
-  color: #fff; padding: 64px 32px 56px; text-align: center;
+.breadcrumb { padding: 16px 32px 0; font-size: 13px; color: #999; }
+.breadcrumb a { color: #999; text-decoration: none; }
+
+.feed-header { background: #FAF7F0; padding: 56px 32px 8px; }
+.feed-title { font-size: 30px; font-weight: 800; color: #1a1a1a; line-height: 1.35; }
+.feed-accent { color: #F0A93B; }
+.feed-sub { margin-top: 10px; font-size: 14px; color: #666; line-height: 1.7; padding-bottom: 24px; max-width: 640px; }
+
+.feed-section { padding: 40px 32px 20px; max-width: 800px; margin: 0 auto; }
+.feed-section h2 { font-size: 19px; font-weight: 800; color: #0E6659; margin-bottom: 12px; }
+.feed-section p { font-size: 14.5px; color: #444; line-height: 1.9; margin-bottom: 14px; }
+
+.reason-list { display: flex; flex-direction: column; gap: 10px; margin-top: 8px; }
+.reason-item {
+  display: flex; align-items: center; gap: 12px;
+  background: #E8F5F1; border-radius: 10px; padding: 16px 20px;
+  font-size: 14px; color: #333; font-weight: 500;
 }
-.hero-badge { display: inline-block; background: rgba(240,169,59,0.18); color: #F0A93B; border: 1px solid rgba(240,169,59,0.4); font-size: 13px; font-weight: 700; padding: 6px 16px; border-radius: 20px; margin-bottom: 20px; }
-.hero h1 { font-size: 34px; font-weight: 800; line-height: 1.4; margin-bottom: 16px; }
-.hero h1 span { color: #F0A93B; }
-.hero p { font-size: 15px; color: rgba(255,255,255,0.8); max-width: 560px; margin: 0 auto 28px; line-height: 1.8; }
-.hero-btns { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
-.btn-primary { background: #F0A93B; color: #0A4D43; border: none; padding: 15px 30px; border-radius: 10px; font-size: 15px; font-weight: 800; cursor: pointer; font-family: 'Noto Sans KR', sans-serif; text-decoration: none; display: inline-block; }
-.btn-outline { background: transparent; color: #fff; border: 1.5px solid rgba(255,255,255,0.5); padding: 14px 28px; border-radius: 10px; font-size: 15px; font-weight: 700; text-decoration: none; display: inline-block; }
+.reason-item i { color: #0E6659; font-size: 18px; flex-shrink: 0; }
 
-.stats-row { display: grid; grid-template-columns: repeat(3,1fr); background: #FAF7F0; padding: 28px 32px; text-align: center; }
-.stat-num { font-size: 22px; font-weight: 800; color: #0E6659; }
-.stat-label { font-size: 12.5px; color: #777; margin-top: 4px; }
+.mode-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 16px; }
+.mode-card { background: #fff; border: 1px solid #EDE6D6; border-radius: 14px; padding: 26px 22px; text-align: center; }
+.mode-icon { font-size: 30px; color: #0E6659; margin-bottom: 12px; }
+.mode-title { font-size: 16px; font-weight: 700; color: #1a1a1a; margin-bottom: 8px; }
+.mode-text { font-size: 13px; color: #777; line-height: 1.7; }
 
-.section { padding: 56px 32px; max-width: 1000px; margin: 0 auto; }
-.section-head { text-align: center; margin-bottom: 36px; }
-.section-title { font-size: 24px; font-weight: 800; color: #1a1a1a; }
-.section-sub { font-size: 14px; color: #777; margin-top: 8px; line-height: 1.7; }
+.step-list { display: flex; flex-direction: column; gap: 14px; margin-top: 16px; }
+.step-item { display: flex; gap: 14px; align-items: flex-start; }
+.step-num {
+  flex-shrink: 0; width: 28px; height: 28px; border-radius: 50%;
+  background: #0E6659; color: #fff; font-size: 13px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+.step-text { font-size: 14px; color: #333; line-height: 1.7; padding-top: 3px; }
 
-.pillar-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; }
-.pillar-card { background: #FAF7F0; border: 1px solid #EDE6D6; border-radius: 14px; padding: 26px 20px; text-align: center; }
-.pillar-icon { width: 48px; height: 48px; border-radius: 50%; background: #0E6659; color: #F0A93B; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px; font-size: 22px; }
-.pillar-title { font-size: 14.5px; font-weight: 700; color: #1a1a1a; margin-bottom: 8px; }
-.pillar-text { font-size: 12.5px; color: #777; line-height: 1.7; }
-@media (max-width: 800px) { .pillar-grid { grid-template-columns: repeat(2,1fr); } }
+.tutor-box { background: #0E6659; border-radius: 16px; padding: 36px 32px; text-align: center; color: #fff; }
+.tutor-box .brand-mark { display: inline-block; background: rgba(240,169,59,0.18); color: #F0A93B; border: 1px solid rgba(240,169,59,0.4); font-size: 12px; font-weight: 700; padding: 4px 14px; border-radius: 16px; margin-bottom: 14px; }
+.tutor-box h3 { font-size: 19px; font-weight: 800; margin-bottom: 10px; }
+.tutor-box p { color: rgba(255,255,255,0.75); font-size: 13.5px; line-height: 1.8; margin-bottom: 22px; }
+.tutor-box-btn { display: inline-flex; align-items: center; gap: 6px; background: #F0A93B; color: #0A4D43; padding: 13px 26px; border-radius: 8px; font-size: 14.5px; font-weight: 800; text-decoration: none; }
 
-.finder-box { background: #0E6659; border-radius: 18px; padding: 40px 32px; text-align: center; color: #fff; }
-.finder-box h2 { font-size: 20px; font-weight: 800; margin-bottom: 10px; }
-.finder-box p { font-size: 13.5px; color: rgba(255,255,255,0.8); margin-bottom: 22px; line-height: 1.8; }
-.finder-btn { display: inline-flex; align-items: center; gap: 6px; background: #F0A93B; color: #0A4D43; padding: 13px 26px; border-radius: 8px; font-size: 14.5px; font-weight: 800; text-decoration: none; }
+.cta-section { background: #FAF7F0; padding: 48px 32px; text-align: center; margin-top: 20px; }
+.cta-section h2 { font-size: 20px; font-weight: 800; color: #1a1a1a; margin-bottom: 10px; }
+.cta-section p { font-size: 14px; color: rgba(0,0,0,0.6); margin-bottom: 24px; line-height: 1.8; }
+.btn-primary {
+  background: #F0A93B; color: #0A4D43; border: none;
+  padding: 14px 30px; border-radius: 8px; font-size: 15px; font-weight: 800;
+  cursor: pointer; font-family: 'Noto Sans KR', sans-serif;
+  text-decoration: none; display: inline-block;
+}
 
-.review-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
-.review-card { background: #fff; border: 1px solid #EDE6D6; border-radius: 14px; padding: 22px 18px; }
-.review-stars { color: #F0A93B; font-size: 14px; margin-bottom: 10px; }
-.review-text { font-size: 13.5px; color: #333; line-height: 1.8; margin-bottom: 14px; }
-.review-author { font-size: 12px; color: #888; border-top: 1px solid #EDE6D6; padding-top: 10px; }
-@media (max-width: 800px) { .review-grid { grid-template-columns: 1fr; } }
-.review-more { text-align: center; margin-top: 24px; }
-.review-more a { color: #0E6659; font-weight: 700; font-size: 14px; text-decoration: none; border-bottom: 2px solid #F0A93B; padding-bottom: 3px; }
-
-.faq-list { display: flex; flex-direction: column; gap: 10px; max-width: 760px; margin: 0 auto; }
-.faq-item { border: 1px solid #EDE6D6; border-radius: 10px; overflow: hidden; }
-.faq-item summary { list-style: none; cursor: pointer; padding: 16px 20px; font-size: 14.5px; font-weight: 700; color: #1a1a1a; display: flex; align-items: center; gap: 10px; }
-.faq-item summary::-webkit-details-marker { display: none; }
-.faq-item summary::before { content: 'Q'; flex-shrink: 0; width: 22px; height: 22px; border-radius: 50%; background: #0E6659; color: #fff; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
-.faq-item[open] summary { border-bottom: 1px solid #EDE6D6; }
-.faq-answer { padding: 16px 20px 18px 52px; font-size: 13.5px; color: #555; line-height: 1.8; }
-
-.cta-section { background: #FAF7F0; padding: 56px 32px; text-align: center; }
-.cta-section h2 { font-size: 21px; font-weight: 800; color: #1a1a1a; margin-bottom: 10px; }
-.cta-section p { font-size: 14px; color: #777; margin-bottom: 26px; line-height: 1.8; }
 .consult-form { display: flex; flex-direction: column; gap: 12px; max-width: 400px; margin: 0 auto; }
 .consult-form form { display: flex; flex-direction: column; gap: 12px; }
+.consult-submit { width: 100%; }
 .consult-form input, .consult-form select {
   padding: 14px 18px; border-radius: 8px; border: 1.5px solid #ccc;
   background: #fff; color: #1a1a1a; font-size: 14px;
   font-family: 'Noto Sans KR', sans-serif; outline: none;
 }
 .consult-form input::placeholder { color: rgba(0,0,0,0.4); }
-.consult-submit { background: #F0A93B; color: #0A4D43; border: none; padding: 16px; border-radius: 8px; font-size: 16px; font-weight: 800; cursor: pointer; font-family: 'Noto Sans KR', sans-serif; }
+.consult-submit {
+  background: #F0A93B; color: #0A4D43; border: none; padding: 16px; border-radius: 8px;
+  font-size: 16px; font-weight: 800; cursor: pointer; font-family: 'Noto Sans KR', sans-serif;
+}
 .consult-submit:hover { background: #d9962f; }
 
 .footer { background: #0A2620; color: rgba(255,255,255,0.6); padding: 40px; font-size: 13px; line-height: 1.9; }
@@ -187,8 +170,10 @@ body { font-family: 'Noto Sans KR', sans-serif; color: #1a1a1a; background: #fff
   text-decoration: none; transition: transform 0.2s;
 }
 .floating-btn:hover { transform: translateY(-2px); }
+
 .top-btn {
-  position: fixed; bottom: 28px; left: 24px; width: 46px; height: 46px; border-radius: 50%;
+  position: fixed; bottom: 28px; left: 24px;
+  width: 46px; height: 46px; border-radius: 50%;
   background: #0E6659; color: #fff; border: none; cursor: pointer;
   display: flex; align-items: center; justify-content: center; font-size: 18px;
   box-shadow: 0 4px 16px rgba(14,102,89,0.35); z-index: 999;
@@ -198,12 +183,11 @@ body { font-family: 'Noto Sans KR', sans-serif; color: #1a1a1a; background: #fff
 .top-btn.show { opacity: 1; pointer-events: auto; transform: translateY(0); }
 
 @media (max-width: 600px) {
-  .hero { padding: 48px 20px 40px; }
-  .hero h1 { font-size: 25px; }
-  .stats-row { padding: 22px 20px; }
-  .section { padding: 40px 20px; }
-  .pillar-grid { grid-template-columns: 1fr; }
-  .review-grid { grid-template-columns: 1fr; }
+  .feed-header { padding: 40px 20px 6px; }
+  .feed-title { font-size: 23px; }
+  .feed-section { padding: 32px 20px; }
+  .mode-grid { grid-template-columns: 1fr; }
+  .cta-section { padding: 36px 20px; }
   .footer { padding: 32px 20px; }
 }
 </style>
@@ -213,121 +197,71 @@ body { font-family: 'Noto Sans KR', sans-serif; color: #1a1a1a; background: #fff
 <nav class="navbar">
   <a href="index.html" class="navbar-brand"><img src="favicon.svg" alt="와와코칭"><span>와와코칭</span></a>
   <div class="navbar-links">
-    <a href="index.html" class="nav-link active">홈</a>
+    <a href="index.html" class="nav-link">홈</a>
     <a href="brand.html" class="nav-link">코칭 시스템</a>
     <a href="center-finder.html" class="nav-link">지점 찾기</a>
-    <a href="visit-class.html" class="nav-link">방문·화상 수업</a>
+    <a href="visit-class.html" class="nav-link active">방문·화상 수업</a>
     <a href="news.html" class="nav-link">입시뉴스</a>
     <a href="reviews.html" class="nav-link">후기</a>
   </div>
-  <a href="#consult" class="navbar-cta">상담신청</a>
+  <a href="index.html#consult" class="navbar-cta">상담신청</a>
 </nav>
 
-<section class="hero">
-  <div class="hero-badge">✦ AI 학습 분석 기반 코칭 시스템</div>
-  <h1>성적이 아니라<br><span>학습 습관</span>을 코칭합니다</h1>
-  <p>4C 코칭, AI 학습 분석 리포트, 자기주도학습으로 완성하는 와와코칭의 학습 관리 시스템입니다. 전국 와와학습코칭센터 지점에서 만나보실 수 있습니다.</p>
-  <div class="hero-btns">
-    <a href="#consult" class="btn-primary">무료 상담 신청</a>
-    <a href="brand.html" class="btn-outline">코칭 시스템 알아보기</a>
+<p class="breadcrumb"><a href="index.html">홈</a> &nbsp;&rsaquo;&nbsp; 방문·화상 수업</p>
+
+<section class="feed-header">
+  <h1 class="feed-title">지점이 멀어도 <span class="feed-accent">괜찮습니다</span></h1>
+  <p class="feed-sub">가까운 지점을 오가기 어려운 상황이라면, 선생님이 직접 방문하거나 화상으로 진행하는 코칭을 이용하실 수 있습니다.</p>
+</section>
+
+<section class="feed-section">
+  <h2>이럴 때 추천합니다</h2>
+  <div class="reason-list">
+    <div class="reason-item"><i class="ti ti-map-pin-off"></i> 가까운 지점까지 이동 거리가 부담스러울 때</div>
+    <div class="reason-item"><i class="ti ti-clock"></i> 등하원 이동 시간을 아껴 학습에 더 집중하고 싶을 때</div>
+    <div class="reason-item"><i class="ti ti-home"></i> 편안한 환경에서 1:1로 더 밀착된 코칭을 원할 때</div>
   </div>
 </section>
 
-<div class="stats-row">
-  <div class="stat-item"><div class="stat-num">★4.9</div><div class="stat-label">학부모 만족도 평점</div></div>
-  <div class="stat-item"><div class="stat-num">230+</div><div class="stat-label">실제 학부모 후기</div></div>
-  <div class="stat-item"><div class="stat-num">200+</div><div class="stat-label">전국 지점 네트워크</div></div>
-</div>
-
-<section class="section" id="system">
-  <div class="section-head">
-    <div class="section-title">와와코칭의 4가지 코칭 시스템</div>
-    <div class="section-sub">단순히 문제를 풀어주는 것이 아니라, 학습하는 방법 자체를 코칭합니다</div>
-  </div>
-  <div class="pillar-grid">
-    <div class="pillar-card">
-      <div class="pillar-icon"><i class="ti ti-target-arrow"></i></div>
-      <div class="pillar-title">4C 코칭</div>
-      <div class="pillar-text">학습 습관과 태도를 진단해 맞춤형으로 지도하는 코칭 프로그램</div>
+<section class="feed-section">
+  <h2>방문 또는 화상, 편한 방식으로 선택하세요</h2>
+  <div class="mode-grid">
+    <div class="mode-card">
+      <div class="mode-icon"><i class="ti ti-walk"></i></div>
+      <div class="mode-title">방문 코칭</div>
+      <div class="mode-text">선생님이 직접 집으로 방문해 대면으로 코칭을 진행합니다.</div>
     </div>
-    <div class="pillar-card">
-      <div class="pillar-icon"><i class="ti ti-chart-dots"></i></div>
-      <div class="pillar-title">AI 학습 분석</div>
-      <div class="pillar-text">취약 유형과 학습 시간, 성취도 변화를 데이터로 확인하는 리포트</div>
-    </div>
-    <div class="pillar-card">
-      <div class="pillar-icon"><i class="ti ti-books"></i></div>
-      <div class="pillar-title">과목별 1:1 관리</div>
-      <div class="pillar-text">국어·영어·수학·과학·사회 과목별로 개별 맞춤 학습 진행</div>
-    </div>
-    <div class="pillar-card">
-      <div class="pillar-icon"><i class="ti ti-bulb"></i></div>
-      <div class="pillar-title">자기주도학습</div>
-      <div class="pillar-text">스스로 계획하고 점검하는 학습 태도를 함께 만들어갑니다</div>
+    <div class="mode-card">
+      <div class="mode-icon"><i class="ti ti-device-laptop"></i></div>
+      <div class="mode-title">화상 코칭</div>
+      <div class="mode-text">화상으로 연결해 원하는 장소, 원하는 시간에 코칭을 진행합니다.</div>
     </div>
   </div>
 </section>
 
-<section class="section" id="finder">
-  <div class="finder-box">
-    <h2>가까운 와와코칭 지점을 찾아보세요</h2>
-    <p>전국 200여개 와와학습코칭센터 지점에서 와와코칭 시스템을 만나보실 수 있습니다.</p>
-    <a href="center-finder.html" class="finder-btn">지점 찾기 <i class="ti ti-arrow-right"></i></a>
+<section class="feed-section">
+  <h2>신청은 이렇게 진행됩니다</h2>
+  <div class="step-list">
+    <div class="step-item"><span class="step-num">1</span><span class="step-text">무료 상담 신청 — 거주 지역과 희망 과목, 방문·화상 여부를 말씀해주세요.</span></div>
+    <div class="step-item"><span class="step-num">2</span><span class="step-text">담당 코치가 학생 수준과 상황에 맞춰 코칭 방향을 안내해드립니다.</span></div>
+    <div class="step-item"><span class="step-num">3</span><span class="step-text">방문 또는 화상 중 편한 방식으로 코칭을 시작합니다.</span></div>
   </div>
+  <p style="margin-top:16px;">상담 신청과 매칭 과정에는 별도 비용이 들지 않습니다.</p>
 </section>
 
-<section class="section" id="reviews">
-  <div class="section-head">
-    <div class="section-title">학부모 실제 후기</div>
-    <div class="section-sub">★ 4.9 / 5.0 · 후기 230건+</div>
-  </div>
-  <div class="review-grid">
-    <div class="review-card">
-      <div class="review-stars">★★★★★</div>
-      <div class="review-text">4C 코칭으로 학습 습관부터 잡아주셔서, 스스로 계획 세우고 공부하는 시간이 눈에 띄게 늘었어요.</div>
-      <div class="review-author">반송점 반송중2 학부모 · 과학 수강 4개월</div>
-    </div>
-    <div class="review-card">
-      <div class="review-stars">★★★★★</div>
-      <div class="review-text">AI 학습 분석 리포트로 아이가 어떤 유형을 자주 틀리는지 구체적으로 보여주셔서 신뢰가 갔습니다.</div>
-      <div class="review-author">평내점 평내고1 학생 · 영어 수강 5개월</div>
-    </div>
-    <div class="review-card">
-      <div class="review-stars">★★★★☆</div>
-      <div class="review-text">초등 저학년이라 걱정했는데, 코칭 시스템 덕분에 부담 없이 학습 습관을 만들어가고 있어요.</div>
-      <div class="review-author">호매실점 호매실초5 학부모 · 국어 수강 3개월</div>
-    </div>
-  </div>
-  <div class="review-more"><a href="reviews.html">후기 더보기 <i class="ti ti-arrow-right"></i></a></div>
-</section>
-
-<section class="section" id="faq">
-  <div class="section-head">
-    <div class="section-title">자주 묻는 질문</div>
-  </div>
-  <div class="faq-list">
-    <details class="faq-item">
-      <summary>와와코칭은 와와학습코칭센터와 같은 곳인가요?</summary>
-      <div class="faq-answer">네, 같은 사업자((주)동화세상에듀코)가 운영하는 학습 코칭 시스템입니다. 전국 지점 안내는 와와학습코칭센터 홈페이지에서 확인하실 수 있습니다.</div>
-    </details>
-    <details class="faq-item">
-      <summary>4C 코칭은 무엇인가요?</summary>
-      <div class="faq-answer">학생 개개인의 학습 습관과 태도를 분석해 맞춤형으로 지도하는 코칭 방식으로, 전국 지점에서 공통으로 운영하는 학습 관리 프로그램입니다.</div>
-    </details>
-    <details class="faq-item">
-      <summary>AI 학습 분석 리포트는 어떻게 활용되나요?</summary>
-      <div class="faq-answer">학생의 문제풀이 데이터를 분석해 취약 유형, 학습 시간, 성취도 변화를 리포트로 제공하며, 담당 선생님이 이를 바탕으로 학습 방향을 조정합니다.</div>
-    </details>
-    <details class="faq-item">
-      <summary>가까운 지점은 어디서 확인하나요?</summary>
-      <div class="faq-answer">전국 200여개 지점 검색은 와와학습코칭센터 홈페이지의 센터 찾기 페이지에서 확인하실 수 있습니다.</div>
-    </details>
+<section class="feed-section">
+  <h2>더 전문적인 1:1 맞춤 과외가 필요하다면</h2>
+  <div class="tutor-box">
+    <span class="brand-mark">전과목 일대일 맞춤 과외</span>
+    <h3>방문·화상 1:1 과외에 특화된 자매 브랜드</h3>
+    <p>전국 어디서나 방문·화상 1:1 과외만 전문으로 진행하는 자매 브랜드 "전과목 일대일 맞춤 과외"에서도 선생님을 찾아보실 수 있습니다.</p>
+    <a href="https://alltutoring-website.co.kr/" target="_blank" rel="noopener" class="tutor-box-btn">과외 선생님 찾아보기 <i class="ti ti-arrow-right"></i></a>
   </div>
 </section>
 
 <section class="cta-section" id="consult">
-  <h2>무료 학습 코칭 상담 신청</h2>
-  <p>📞 <strong style="color:#0E6659;font-size:18px;">1899-2277</strong><br>지금 신청하시면 담당 코치가 직접 연락드립니다</p>
+  <h2>무료 매칭 상담 신청</h2>
+  <p>📞 <strong style="color:#0E6659;font-size:18px;">1899-2277</strong><br>지금 바로 전화 또는 신청하시면<br>담당 코치가 직접 연락드립니다</p>
   <div class="consult-form">
     <form id="consultForm">
       <input type="text" name="학생이름" placeholder="학생 이름" required />
@@ -351,6 +285,12 @@ body { font-family: 'Noto Sans KR', sans-serif; color: #1a1a1a; background: #fff
         <option>과학</option>
         <option>사회</option>
         <option>전 과목</option>
+      </select>
+      <select name="수업방식" required>
+        <option value="" disabled selected>수업 방식 선택</option>
+        <option>방문 수업</option>
+        <option>화상 수업</option>
+        <option>상관없음 (추천 받고 싶어요)</option>
       </select>
       <select name="시도" id="regionSelect" required>
         <option value="" disabled selected>지역 선택</option>
@@ -671,5 +611,6 @@ body { font-family: 'Noto Sans KR', sans-serif; color: #1a1a1a; background: #fff
     });
   })();
 </script>
+
 </body>
 </html>

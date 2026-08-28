@@ -24,4 +24,40 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://wawacoaching-website.co.kr/visit-class.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wawacoaching-website.co.kr/news.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://wawacoaching-website.co.kr/news/4C%EC%BD%94%EC%B9%AD%EC%9D%B4%EB%9E%80.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacoaching-website.co.kr/news/%EC%83%81%EB%8B%B4%EC%A4%80%EB%B9%84%EA%B0%80%EC%9D%B4%EB%93%9C.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacoaching-website.co.kr/news/%EC%9E%90%EA%B8%B0%EC%A3%BC%EB%8F%84%ED%95%99%EC%8A%B5-%EC%8B%9C%EC%9E%91%EC%8B%9C%EA%B8%B0.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacoaching-website.co.kr/news/%ED%95%99%EC%8A%B5%EC%8A%B5%EA%B4%80-%ED%98%95%EC%84%B1.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
