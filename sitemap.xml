@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://wawacoaching-website.co.kr/news.html</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -69,6 +69,18 @@
   <url>
     <loc>https://wawacoaching-website.co.kr/news/%ED%95%99%EC%8A%B5%EC%8A%B5%EA%B4%80-%ED%98%95%EC%84%B1.html</loc>
     <lastmod>2026-08-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacoaching-website.co.kr/news/AI%ED%95%99%EC%8A%B5%EB%B6%84%EC%84%9D-%EB%A6%AC%ED%8F%AC%ED%8A%B8-%ED%99%9C%EC%9A%A9%EB%B2%95.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://wawacoaching-website.co.kr/news/%ED%95%99%EB%B6%80%EB%AA%A8%EC%83%81%EB%8B%B4%EC%A3%BC%EA%B0%84-%ED%99%9C%EC%9A%A9%EB%B2%95.html</loc>
+    <lastmod>2026-09-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
