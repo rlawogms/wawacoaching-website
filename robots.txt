@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wawacoaching-website.co.kr/sitemap.xml
+Sitemap: https://wawa-coaching.co.kr/sitemap.xml
